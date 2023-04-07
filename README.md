@@ -1,6 +1,6 @@
 # HackFeed
 <p align="center" >
-  <img width="350" height="150" src="https://raw.githubusercontent.com/yash-raj10/HackFeed/main/img/Logo.png">
+  <img width="350" height="350" src="https://raw.githubusercontent.com/yash-raj10/HackFeed/main/img/Logo.png">
 </p>
 
 <p align="center">
