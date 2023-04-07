@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HackFeed</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <header class="border-black border-b-8">
+      <div class="my-0 flex items-center justify-between bg-blue-500 px-2 py-0">
+        <img src="./img/Name.png" alt="" class="h-20" />
+
+        <button type="button" class="text-black hover:text-gray-400">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+            <path
+              fill-rule="evenodd"
+              d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="my-12 px-4">
+        <h1 class="text-2xl text-gray-800">
+          Finding a Specfic role in Building a Project ?
+        </h1>
+        <p class="text-sm py-5 text-blue-600">
+          We got you!, The website where you can connet with similar minded
+          people and build Beginners/Intermediate Level of Projects on a Specfic
+          Role/Tech Stack!
+        </p>
+
+        <div class="relative mt-4 mb-10 flex">
+          <div>
+            <a
+              href="#main"
+              class="bg-blue-500 text-indigo-100 font-bold mt-2 px-4 py-2 rounded-full text-xs uppercase"
+              >Check Out Now!</a
+            >
+          </div>
+
+          <div
+            class="absolute md:right-36 right-4 bg-white flex justify-center items-center p-1 border-8 border-black"
+          >
+            <img class="w-20 h-20" src="./img/Logo.png" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="mt-16" id="main">
+      <div
+        id="root"
+        class="grid grid-flow-row grid-cols-1 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mx-6"
+      ></div>
+    </main>
+    <footer class="bg-gray-800 w-full text-center my-8 p-8">
+      <p class="text-xl text-gray-600 font-light">Made With ❤️</p>
+    </footer>
+    <script>
+      setup();
+    </script>
+  </body>
+</html>

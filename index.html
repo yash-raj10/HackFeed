@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HackFeed</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img
+      src="img/photo_2023-02-08_20-25-06.jpg"
+      alt="BG"
+      width="600"
+      height="900"
+    />
+    <div class="fillup">
+      <div class="fill">
+        <h1>Welcome to the HackFeed! ❤️</h1>
+        <h3>
+          The website where you can connet with similar minded people and build
+          Beginners/Intermediate Level of Projects on a Specfic Role/Tech Stack!
+        </h3>
+        <form action="" id="contactForm">
+          <label for="projectName">Project Name</label>
+          <input type="text" id="projectName" required />
+          <br />
+
+          <label for="projectDes">Project description</label>
+          <textarea
+            id="projectDes"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+            required
+          ></textarea>
+          <br />
+
+          <label for="techStackUserd">Tech Stack Used</label>
+          <input
+            type="text"
+            id="techStackUsed"
+            placeholder="ex:- React.js, Node.js"
+            required
+          />
+          <br />
+
+          <label for="leaderName">Leader Name</label>
+          <input type="text" id="leaderName" required />
+          <br />
+
+          <div class="submitBtn">
+            <button type="submit">Submit</button>
+          </div>
+          <div class="alert">
+            ` Your Project is UP now! click <a href="./2nd.html">here</a> to
+            View
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
